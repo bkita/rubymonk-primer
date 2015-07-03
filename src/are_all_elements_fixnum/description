@@ -1,0 +1,16 @@
+https://rubymonk.com/learning/books/1-ruby-primer/problems/148-array_of_fixnum
+
+Check if all elements in an array are Fixnum
+
+Problem Statement:
+Given an array, return true if all the elements are Fixnums.
+
+You need to write array_of_fixnums? method to accomplish this task.
+
+Example:
+Given [1,2,3], the method should return true
+
+Tests:
+returns 'true' for [1,2,3]
+returns 'false' for ['a',1,:b]
+returns 'true' for []

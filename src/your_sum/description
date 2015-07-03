@@ -1,0 +1,19 @@
+https://rubymonk.com/learning/books/1-ruby-primer/problems/156-sum
+
+Your Sum
+
+Problem Statement:
+Given a custom class MyArray,
+write a 'sum' method that takes a block parameter.
+
+Example:
+my_array = MyArray.new([1, 2, 3])
+my_array.sum gives 6
+my_array.sum(10) gives 16
+my_array.sum(0) {|n| n ** 2 } gives 14
+
+Tests:
+gives the sum of all elements when no initial value or block is given
+gives the sum of all elements and initial value when no block is given
+evaluates the block and gives the sum of results when no inital value is given
+evaluates the block and gives the sum of results and inital value
