@@ -21,7 +21,6 @@ class NonDuplicateValuesTest < Minitest::Test
     assert_equal 1, arr_size
   end
 
-
   def test_rubymonk_at1_returns_3_elements
     ndv = make_non_duplicate_values
     arr_size = ndv.non_duplicated_values([1,2,2,3,3,4,5]).size
